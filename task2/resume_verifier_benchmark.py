@@ -290,7 +290,7 @@ def render_target_cv(c, cfg, W, H, font):
     # --- 技能 ---
     section("Skills")
     c.setFont(font, 10)
-    c.drawString(margin, y, "Financial Analysis, Excel, SQL, Risk Modeling")
+    c.drawString(margin, y, "Financial Analysis, Excel, SQL, Risk Modeling, Data Analysis")
     y -= 20
 
     return y
